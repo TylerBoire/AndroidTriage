@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as etree
 import re
 
-manifest = '/home/tyler/Desktop/com.exmaple.zolts/AndroidManifest.xml' 
+manifest = '' 
 
 
 def nicePermissions():
