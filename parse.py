@@ -42,7 +42,7 @@ def nice_permissions(outDir):
     for i in range(0, len(permissions)):
         print(permissions[i].attrib['{http://schemas.android.com/apk/res/android}name'])
 
-if __name__ = '__main__':
+if __name__ == '__main__':
 	apk_unpack(testMalware,testOutDir)
 	cert(testOutDir)
 	dex2jar(testMalware, testOutDir)
